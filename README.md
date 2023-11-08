@@ -8,7 +8,7 @@
 <img src="https://github.com/TYehan/SocialPhish/assets/85949077/e4ad6346-8de4-45df-8fb0-be22a45fb112" alt="image" width="400" align="right">
 
 - Improved to use without ngrok.
-- The most complete Phishing Tool, with 32 templates +1 customizable.
+- 32 templates +1 customizable.
 
 ---
 
