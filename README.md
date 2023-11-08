@@ -7,8 +7,8 @@
 
 <img src="https://github.com/TYehan/SocialPhish/assets/85949077/e4ad6346-8de4-45df-8fb0-be22a45fb112" alt="image" width="400" align="right">
 
-- Improved to use without ngrok
-- The most complete Phishing Tool, with 32 templates +1 customizable
+- Improved to use without ngrok.
+- The most complete Phishing Tool, with 32 templates +1 customizable.
 
 ---
 
@@ -26,11 +26,12 @@ cd SocialPhish
 chmod +x socialphish.sh
 ./socialphish.sh
 ```
----
+Don't forget to leave a star ⭐ 
+
+<img width=100% title="TYehan" alt="TYehan" target ="https://tyehan.github.io/Tharindu-Yehan/" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3&height=100&section=footer&text=WhiteGhost&fontSize=11&fontColor=fff&animation=twinkling&fontAlignY=85"/>
 
 https://github.com/TYehan/SocialPhish/assets/85949077/71c0330d-afa9-4d4a-8d5f-23af32839b3d
 
-<img width=100% title="TYehan" alt="TYehan" target ="https://tyehan.github.io/Tharindu-Yehan/" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3&height=100&section=footer&text=WhiteGhost&fontSize=11&fontColor=fff&animation=twinkling&fontAlignY=85"/>
 
 
 
