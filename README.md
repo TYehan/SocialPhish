@@ -32,7 +32,7 @@ The usage of SocialPhish for attacking targets without prior mutual consent is i
 
 ##### Author: <a href="https://github.com/TYehan">WhiteGhost</a>
 
-[![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-green.svg)]([SPONSOR_URL](https://github.com/sponsors/TYehan))
+[![Sponsor](https://img.shields.io/badge/Sponsor-Nice%20to%20meet%20you%20:\)-green.svg)](https://github.com/sponsors/TYehan)
 
 ---
 ### Requirements:
