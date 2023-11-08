@@ -14,7 +14,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Author-WhiteGhost-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Bash/HTML/CSS/PHP-darkcyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Bash/Python/HTML/CSS/PHP-darkcyan?style=flat-square">
 </p>
 
 <img src="https://github.com/TYehan/SocialPhish/assets/85949077/e4ad6346-8de4-45df-8fb0-be22a45fb112" alt="image" width="400" align="right">
@@ -35,14 +35,19 @@ The usage of SocialPhish for attacking targets without prior mutual consent is i
 [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-green.svg)]([SPONSOR_URL](https://github.com/sponsors/TYehan))
 
 ---
+### Requirements:
+***Unix-like Operating System (Linux, ParrotOS, KaliLinux, ..etc) or compatible environment on Windows (WSL, Cygwin).***
+
+---
 ### Usage:
+
 ```
 git clone https://github.com/TYehan/SocialPhish.git
 cd SocialPhish
 chmod +x socialphish.sh
 ./socialphish.sh
 ```
-Don't forget to leave a star ⭐ 
+### Don't forget to leave a star ⭐ 
 
 ---
 https://github.com/TYehan/SocialPhish/assets/85949077/71c0330d-afa9-4d4a-8d5f-23af32839b3d
