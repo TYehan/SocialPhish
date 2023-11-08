@@ -14,7 +14,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Author-WhiteGhost-blue?style=flat-square">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Bash/Python/HTML/CSS/PHP-darkcyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Bash/HTML/CSS/PHP-darkcyan?style=flat-square">
 </p>
 
 <img src="https://github.com/TYehan/SocialPhish/assets/85949077/e4ad6346-8de4-45df-8fb0-be22a45fb112" alt="image" width="400" align="right">
