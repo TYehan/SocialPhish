@@ -1,6 +1,6 @@
 <p align="center">
   
-<img src="https://github.com/TYehan/SocialPhish/assets/85949077/bdd88b98-477b-4c84-9127-015cfad4c4b2" alt="image" width="400">
+<img src="https://github.com/TYehan/SocialPhish/assets/85949077/20bc6e86-bd83-4ca7-8010-08825329f0eb" alt="image" width="400">
 
 </p>
 
@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/Written%20In-Bash/HTML/CSS/PHP-darkcyan?style=flat-square">
 </p>
 
-<img src="https://github.com/TYehan/SocialPhish/assets/85949077/e4ad6346-8de4-45df-8fb0-be22a45fb112" alt="image" width="400" align="right">
+<img src="https://github.com/TYehan/SocialPhish/assets/85949077/66020179-cc24-4eb6-9028-cebd177c9f8e" alt="image" width="400" align="right">
 
 ---
 ## SocialPhish v3.0
@@ -50,7 +50,8 @@ chmod +x socialphish.sh
 ### Don't forget to leave a star ⭐ 
 
 ---
-https://github.com/TYehan/SocialPhish/assets/85949077/71c0330d-afa9-4d4a-8d5f-23af32839b3d
+
+https://github.com/TYehan/SocialPhish/assets/85949077/7ee5a92e-3338-4ed3-adac-d4eb576ffa06
 
 <img width=100% title="TYehan" alt="TYehan" target ="https://tyehan.github.io/Tharindu-Yehan/" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3&height=100&section=footer&text=WhiteGhost&fontSize=11&fontColor=fff&animation=twinkling&fontAlignY=85"/>
 
