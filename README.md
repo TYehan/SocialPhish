@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-3.0-green?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-3.0-red?style=for-the-badge">
   <img src="https://img.shields.io/github/stars/TYehan/SocialPhish?style=for-the-badge">
   <img src="https://img.shields.io/github/forks/TYehan/SocialPhish?color=teal&style=for-the-badge">
 </p>
