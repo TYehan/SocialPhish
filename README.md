@@ -1,12 +1,27 @@
-# SocialPhish v3.0
+<p align="center">
+  
+<img src="https://github.com/TYehan/SocialPhish/assets/85949077/bdd88b98-477b-4c84-9127-015cfad4c4b2" alt="image" width="400">
 
-![GitHub top language](https://img.shields.io/github/languages/top/TYehan/SocialPhish)
-[![GitHub license](https://img.shields.io/github/license/TYehan/SocialPhish)](https://github.com/TYehan/SocialPhish/blob/main/LICENSE)
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/TYehan/SocialPhish)
-[![GitHub stars](https://img.shields.io/github/stars/TYehan/SocialPhish.svg?style=social)](https://github.com/TYehan/SocialPhish) 
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Version-3.0-green?style=for-the-badge">
+  <img src="https://img.shields.io/github/license/TYehan/SocialPhish?style=for-the-badge">
+  <img src="https://img.shields.io/github/stars/TYehan/SocialPhish?style=for-the-badge">
+  <img src="https://img.shields.io/github/forks/TYehan/SocialPhish?color=teal&style=for-the-badge">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Author-WhiteGhost-blue?style=flat-square">
+  <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Bash/HTML/CSS/PHP-darkcyan?style=flat-square">
+</p>
 
 <img src="https://github.com/TYehan/SocialPhish/assets/85949077/e4ad6346-8de4-45df-8fb0-be22a45fb112" alt="image" width="400" align="right">
 
+---
+## SocialPhish v3.0
+- Beginner Friendly
 - Improved to use without ngrok.
 - 32 templates +1 customizable.
 
