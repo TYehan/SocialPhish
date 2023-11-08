@@ -6,21 +6,19 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Version-3.0-red?style=for-the-badge">
-  <img src="https://img.shields.io/github/stars/TYehan/SocialPhish?style=for-the-badge">
-  <img src="https://img.shields.io/github/forks/TYehan/SocialPhish?color=teal&style=for-the-badge">
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Author-WhiteGhost-blue?style=flat-square">
   <img src="https://img.shields.io/github/license/TYehan/SocialPhish?/blob/main/LICENSEstyle=for-the-badge">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Bash/HTML/CSS/PHP-darkcyan?style=flat-square">
+  <img src="https://img.shields.io/badge/Written%20In-Bash/HTML/CSS/PHP-darkcyan?style=flat-square">  
 </p>
 
 <img src="https://github.com/TYehan/SocialPhish/assets/85949077/66020179-cc24-4eb6-9028-cebd177c9f8e" alt="image" width="400" align="right">
 
 ---
-## SocialPhish v3.0
+## SocialPhish v3.0   [![GitHub stars](https://img.shields.io/github/stars/TYehan/SocialPhish.svg?style=social)](https://github.com/TYehan/SocialPhish) 
 - Beginner Friendly
 - Improved to use without ngrok.
 - 32 templates +1 customizable.
