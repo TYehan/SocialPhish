@@ -18,6 +18,7 @@ The usage of SocialPhish for attacking targets without prior mutual consent is i
 ##### Author: <a href="https://github.com/TYehan">WhiteGhost</a>
 
 [![Sponsor](https://img.shields.io/badge/Sponsor-GitHub-green.svg)]([SPONSOR_URL](https://github.com/sponsors/TYehan))
+
 ---
 ### Usage:
 ```
@@ -28,10 +29,9 @@ chmod +x socialphish.sh
 ```
 Don't forget to leave a star ⭐ 
 
-<img width=100% title="TYehan" alt="TYehan" target ="https://tyehan.github.io/Tharindu-Yehan/" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3&height=100&section=footer&text=WhiteGhost&fontSize=11&fontColor=fff&animation=twinkling&fontAlignY=85"/>
-
+---
 https://github.com/TYehan/SocialPhish/assets/85949077/71c0330d-afa9-4d4a-8d5f-23af32839b3d
 
-
+<img width=100% title="TYehan" alt="TYehan" target ="https://tyehan.github.io/Tharindu-Yehan/" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3&height=100&section=footer&text=WhiteGhost&fontSize=11&fontColor=fff&animation=twinkling&fontAlignY=85"/>
 
 
