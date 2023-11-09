@@ -13,6 +13,7 @@
   <img src="https://img.shields.io/github/license/TYehan/SocialPhish?/blob/main/LICENSEstyle=for-the-badge">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
   <img src="https://img.shields.io/badge/Written%20In-Bash/HTML/CSS/PHP-darkcyan?style=flat-square">  
+  <img src="https://komarev.com/ghpvc/?username=TYehan&label=Clones&color=green&style=flat">
 </p>
 
 <img src="https://github.com/TYehan/SocialPhish/assets/85949077/66020179-cc24-4eb6-9028-cebd177c9f8e" alt="image" width="400" align="right">
