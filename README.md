@@ -48,6 +48,8 @@ cd SocialPhish
 chmod +x socialphish.sh
 ./socialphish.sh
 ```
+---
+### ⭐Tutorial Demo Video:
 
 https://github.com/TYehan/SocialPhish/assets/85949077/7ee5a92e-3338-4ed3-adac-d4eb576ffa06
 
