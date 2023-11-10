@@ -46,7 +46,7 @@ cd SocialPhish
 chmod +x socialphish.sh
 ./socialphish.sh
 ```
-### Save it for future & <br>Give the star ⭐ if you like it 😅
+### Save it for future & <br>Give a star ⭐ if you like it <img src="https://github.com/TYehan/SocialPhish/assets/85949077/2645dea7-c2fc-460f-9f88-e79ee727fbc9" height="30px">
 
 ---
 
