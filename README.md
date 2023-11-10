@@ -21,8 +21,9 @@
 
 ---
 ## ⭐SocialPhish v3.0   [![GitHub stars](https://img.shields.io/github/stars/TYehan/SocialPhish.svg?style=social)](https://github.com/TYehan/SocialPhish) 
-- Beginner Friendly
-- Improved to use without ngrok.
+- Beginner Friendly.
+- Improved to use without other hosting services or ngrok.
+- Standalone self-hosting.
 - 32 templates +1 customizable.
 
 ---
