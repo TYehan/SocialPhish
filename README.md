@@ -31,9 +31,6 @@
 ## ⭐Legal disclaimer:
 The usage of SocialPhish for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
-<a href="https://github.com/TYehan">
-  <img src="https://img.shields.io/badge/Author-WhiteGhost-blue?style=flat-square"></a>
-  
 [![Sponsor](https://img.shields.io/badge/Sponsor-Nice%20to%20meet%20you%20:\)-green.svg)](https://github.com/sponsors/TYehan)
 
 ---
