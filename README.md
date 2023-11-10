@@ -20,7 +20,7 @@
 <img src="https://github.com/TYehan/SocialPhish/assets/85949077/66020179-cc24-4eb6-9028-cebd177c9f8e" alt="image" width="400" align="right">
 
 ---
-## ⭐SocialPhish v3.0   [![GitHub stars](https://img.shields.io/github/stars/TYehan/SocialPhish.svg?style=social)](https://github.com/TYehan/SocialPhish) 
+## ⭐SocialPhish v3.0.0   [![GitHub stars](https://img.shields.io/github/stars/TYehan/SocialPhish.svg?style=social)](https://github.com/TYehan/SocialPhish) 
 - Beginner Friendly.
 - Improved to use without other hosting services or ngrok.
 - Standalone self-hosting.
