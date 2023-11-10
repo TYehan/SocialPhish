@@ -46,7 +46,7 @@ cd SocialPhish
 chmod +x socialphish.sh
 ./socialphish.sh
 ```
-### Leave a star ⭐ <br>Save it for future.
+### Save it for future & <br>Give the star ⭐ if you like it 😅
 
 ---
 
