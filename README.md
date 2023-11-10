@@ -9,7 +9,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Author-WhiteGhost-blue?style=flat-square">
+  <a href="https://github.com/TYehan">
+  <img src="https://img.shields.io/badge/Author-WhiteGhost-blue?style=flat-square"></a>
   <img src="https://img.shields.io/github/license/TYehan/SocialPhish?/blob/main/LICENSEstyle=for-the-badge">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
   <img src="https://img.shields.io/badge/Written%20In-Bash/HTML/CSS/PHP-darkcyan?style=flat-square">  
