@@ -20,14 +20,14 @@
 <img src="https://github.com/TYehan/SocialPhish/assets/85949077/66020179-cc24-4eb6-9028-cebd177c9f8e" alt="image" width="400" align="right">
 
 ---
-## SocialPhish v3.0   [![GitHub stars](https://img.shields.io/github/stars/TYehan/SocialPhish.svg?style=social)](https://github.com/TYehan/SocialPhish) 
+## ⭐SocialPhish v3.0   [![GitHub stars](https://img.shields.io/github/stars/TYehan/SocialPhish.svg?style=social)](https://github.com/TYehan/SocialPhish) 
 - Beginner Friendly
 - Improved to use without ngrok.
 - 32 templates +1 customizable.
 
 ---
 
-## Legal disclaimer:
+## ⭐Legal disclaimer:
 The usage of SocialPhish for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
 ##### Author: <a href="https://github.com/TYehan">WhiteGhost</a>
@@ -35,11 +35,11 @@ The usage of SocialPhish for attacking targets without prior mutual consent is i
 [![Sponsor](https://img.shields.io/badge/Sponsor-Nice%20to%20meet%20you%20:\)-green.svg)](https://github.com/sponsors/TYehan)
 
 ---
-### Requirements:
+### ⭐Requirements:
 ***Unix-like Operating System (Linux, ParrotOS, KaliLinux, ..etc) or compatible environment on Windows (WSL, Cygwin).***
 
 ---
-### Usage:
+### ⭐Usage:
 
 ```
 git clone https://github.com/TYehan/SocialPhish.git
@@ -47,9 +47,6 @@ cd SocialPhish
 chmod +x socialphish.sh
 ./socialphish.sh
 ```
-### Give a star ⭐ if you like it <img src="https://github.com/TYehan/SocialPhish/assets/85949077/2645dea7-c2fc-460f-9f88-e79ee727fbc9" width="30px">
-
----
 
 https://github.com/TYehan/SocialPhish/assets/85949077/7ee5a92e-3338-4ed3-adac-d4eb576ffa06
 
