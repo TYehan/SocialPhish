@@ -6,8 +6,8 @@
 
 <p align="center">
   <img src="https://img.shields.io/github/license/TYehan/SocialPhish?/blob/main/LICENSEstyle=for-the-badge">
-  <img src="https://img.shields.io/badge/Version-3.0.0-red?style=for-the-badge">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
+<!--   <img src="https://img.shields.io/badge/Version-3.0.0-red?style=for-the-badge"> -->
 <!--   <img src="https://komarev.com/ghpvc/?username=TYehan&label=Views&color=green&style=flat"> -->
 </p>
 
