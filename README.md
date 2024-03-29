@@ -25,6 +25,17 @@
 - Local tunnel hosting or ngrok.
 - Beginner Friendly.
 
+---
+### ⭐Requirements:
+***Unix-like Operating System (Linux, ParrotOS, KaliLinux, ..etc) or compatible environment on Windows (WSL, Cygwin).***
+
+---
+
+### ⭐Tutorial Demo Video:
+
+https://github.com/TYehan/SocialPhish/assets/85949077/7ee5a92e-3338-4ed3-adac-d4eb576ffa06
+
+---
 ### ⭐Usage:
 
 ```
@@ -33,18 +44,6 @@ cd SocialPhish
 chmod +x socialphish.sh
 ./socialphish.sh
 ```
----
-
-### ⭐Tutorial Demo Video:
-
-https://github.com/TYehan/SocialPhish/assets/85949077/7ee5a92e-3338-4ed3-adac-d4eb576ffa06
-
----
-
----
-### ⭐Requirements:
-***Unix-like Operating System (Linux, ParrotOS, KaliLinux, ..etc) or compatible environment on Windows (WSL, Cygwin).***
-
 ---
 
 ## ⭐Legal disclaimer:
