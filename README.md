@@ -14,7 +14,7 @@
 <img src="https://github.com/TYehan/SocialPhish/assets/85949077/66020179-cc24-4eb6-9028-cebd177c9f8e" alt="image" width="400" align="right">
 
 ---
-Improved version of SocialPhish by <a href="https://github.com/xHak9x">xHak9x</a>
+Remastered version of "SocialPhish" by <a href="https://github.com/xHak9x">xHak9x</a>
 ## ⭐SocialPhish - Remastered [![GitHub stars](https://img.shields.io/github/stars/TYehan/SocialPhish.svg?style=social)](https://github.com/TYehan/SocialPhish) 
 
 - 32 templates +1 customizable.
