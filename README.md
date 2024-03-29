@@ -5,13 +5,8 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-3.0.0-red?style=for-the-badge">
-</p>
-
-<p align="center">
-  <a href="https://github.com/TYehan">
-  <img src="https://img.shields.io/badge/Author-WhiteGhost-blue?style=flat-square"></a>
   <img src="https://img.shields.io/github/license/TYehan/SocialPhish?/blob/main/LICENSEstyle=for-the-badge">
+  <img src="https://img.shields.io/badge/Version-3.0.0-red?style=for-the-badge">
   <img src="https://img.shields.io/badge/Open%20Source-Yes-darkgreen?style=flat-square">
 <!--   <img src="https://komarev.com/ghpvc/?username=TYehan&label=Views&color=green&style=flat"> -->
 </p>
@@ -49,7 +44,11 @@ chmod +x socialphish.sh
 ## ⭐Legal disclaimer:
 The usage of SocialPhish for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
 
-[![Sponsor](https://img.shields.io/badge/Sponsor-Nice%20to%20meet%20you%20:\)-green.svg)](https://github.com/sponsors/TYehan)
+<!-- [![Sponsor](https://img.shields.io/badge/Sponsor-Nice%20to%20meet%20you%20:\)-green.svg)](https://github.com/sponsors/TYehan) -->
+
+<a href="https://github.com/TYehan">
+  <img src="https://img.shields.io/badge/Author-WhiteGhost-blue?style=flat-square">
+</a>
 
 <img width=100% title="TYehan" alt="TYehan" target ="https://tyehan.github.io/Tharindu-Yehan/" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=3&height=100&section=footer&text=WhiteGhost&fontSize=11&fontColor=fff&animation=twinkling&fontAlignY=85"/>
 
