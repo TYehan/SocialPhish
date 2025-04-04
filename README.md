@@ -42,6 +42,15 @@ chmod +x socialphish.sh
 ./socialphish.sh
 ```
 ---
+#### Note:
+If this error occurs: `zsh: ./socialphish.sh: bad interpreter: /bin/bash^M: no such file or directory`
+- Run the following command to fix it:
+  
+```
+sed -i 's/\r$//' socialphish.sh
+chmod +x socialphish.sh
+./socialphish.sh
+```
 
 ## ⭐Legal disclaimer:
 The usage of SocialPhish for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program.
